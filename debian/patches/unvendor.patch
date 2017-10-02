@@ -1,0 +1,38 @@
+Last-Update: 2016-04-04
+Forwarded: not-needed
+Author: Dmitry Smirnov <onlyjob@debian.org>
+Description: un-vendor bundled dependencies.
+
+--- golang-github-smartystreets-assertions-1.6.0+dfsg.orig/collections.go
++++ golang-github-smartystreets-assertions-1.6.0+dfsg/collections.go
+@@ -4,7 +4,7 @@ import (
+ 	"fmt"
+ 	"reflect"
+ 
+-	"github.com/smartystreets/assertions/internal/oglematchers"
++	"github.com/jacobsa/oglematchers"
+ )
+ 
+ // ShouldContain receives exactly two parameters. The first is a slice and the
+--- golang-github-smartystreets-assertions-1.6.0+dfsg.orig/equality.go
++++ golang-github-smartystreets-assertions-1.6.0+dfsg/equality.go
+@@ -7,7 +7,7 @@ import (
+ 	"reflect"
+ 	"strings"
+ 
+-	"github.com/smartystreets/assertions/internal/oglematchers"
++	"github.com/jacobsa/oglematchers"
+ 	"github.com/smartystreets/assertions/internal/go-render/render"
+ )
+ 
+--- golang-github-smartystreets-assertions-1.6.0+dfsg.orig/quantity.go
++++ golang-github-smartystreets-assertions-1.6.0+dfsg/quantity.go
+@@ -3,7 +3,7 @@ package assertions
+ import (
+ 	"fmt"
+ 
+-	"github.com/smartystreets/assertions/internal/oglematchers"
++	"github.com/jacobsa/oglematchers"
+ )
+ 
+ // ShouldBeGreaterThan receives exactly two parameters and ensures that the first is greater than the second.

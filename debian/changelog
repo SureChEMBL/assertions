@@ -1,0 +1,12 @@
+golang-github-smartystreets-assertions (1.6.0+dfsg-2) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+ -- Paul Tagliamonte <paultag@debian.org>  Wed, 29 Jun 2016 20:43:01 -0400
+
+golang-github-smartystreets-assertions (1.6.0+dfsg-1) unstable; urgency=medium
+
+  * Initial release (Closes: #820421).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 08 Apr 2016 18:00:09 +1000
